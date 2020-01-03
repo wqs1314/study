@@ -10,6 +10,18 @@ $arr=$pdo->fetchAll($sql);
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        table{
+            width: 400px;
+            background-color: red;
+            border: 1px solid #000;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
 <table border="1"cellspacing="0">
